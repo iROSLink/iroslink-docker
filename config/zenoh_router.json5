@@ -1,0 +1,14 @@
+{
+  mode: "router",
+  listen: {
+    endpoints: [
+      "udp/0.0.0.0:7447",
+      "tcp/0.0.0.0:7447"
+    ],
+  },
+  scouting: {
+    multicast: {
+      enabled: true,
+    },
+  },
+}
